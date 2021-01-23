@@ -35,4 +35,4 @@ async def on_command_error(ctx, error):
 async def ping(ctx):
     await ctx.send(f'Pong! {round(client.latency * 1000)}ms')
 
-client.run('Nzk5MDE0MzAyNjczMjcyOTEy.X_9aDg.GSEkwRQMSNm0ke4pRhgfojmJ6Cs')
+client.run('TOKEN')
